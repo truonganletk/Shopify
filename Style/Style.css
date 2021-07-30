@@ -5,16 +5,27 @@ body {
   margin: 0;
 }
 
+.page-container
+{
+ margin-left: auto;
+ margin-right: auto;
+ max-width: 1600px;
+}
+
 .top {
   color: white;
-  font-style: bold;
   box-sizing: border-box;
   text-align: center;
-  padding-bottom: 4cm;
-  background: url(../Images/background.svg);
+  background-image: url(../Images/background.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  position: relative;
+  
 }
 
 .top h1 {
+  font-style: bold;
   font-size: 3.75em;
   margin-top: 1.5em;
   margin-bottom: 0;
@@ -23,25 +34,20 @@ body {
   font-size: 1.875em;
 }
 
-.form-container p {
-  font-size: 0.75em;
-}
-
-input[type="text"] {
+.input-email {
   display: inline-block;
+  padding-left: 10px;
   border: 1px solid transparent;
   box-shadow: 0 0 0 1px #6b7177;
   box-sizing: border-box;
   border-radius: 4px;
-  margin-bottom: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-right: 2%;
   height: 3.2em;
-  min-width: 280px;
+  width: 42%;
   font-size: 1em;
 }
 
-input[type=button] {
+.input-button {
     background-color: #212326;
     border: 1px solid transparent;
     height: 3.2em;
@@ -51,4 +57,26 @@ input[type=button] {
     border-radius: 4px;
     font-size: 1em;
     cursor: pointer;
+    width: 25%;
+}
+
+.content
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+.content p
+{
+  font-size: 0.75em;
+  width: 69%;
+  margin: auto;
+}
+
+.top img
+{
+  margin-top: 4%;
 }
