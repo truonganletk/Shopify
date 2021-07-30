@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Montserrat:wght@100&family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.top {
+  color: white;
+  font-style: bold;
+  box-sizing: border-box;
+  text-align: center;
+  padding-bottom: 4cm;
+  background: url(../Images/background.svg);
+}
+
+.top h1 {
+  font-size: 3.75em;
+  margin-top: 1.5em;
+  margin-bottom: 0;
+}
+.top p {
+  font-size: 1.875em;
+}
+
+.form-container p {
+  font-size: 0.75em;
+}
+
+input[type="text"] {
+  display: inline-block;
+  border: 1px solid transparent;
+  box-shadow: 0 0 0 1px #6b7177;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  height: 3.2em;
+  min-width: 280px;
+  font-size: 1em;
+}
+
+input[type=button] {
+    background-color: #212326;
+    border: 1px solid transparent;
+    height: 3.2em;
+    color: white;
+    font-weight: bold;
+    padding: 1em 0;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
