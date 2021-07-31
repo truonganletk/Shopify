@@ -5,11 +5,10 @@ body {
   margin: 0;
 }
 
-.page-container
-{
- margin-left: auto;
- margin-right: auto;
- max-width: 1600px;
+.page-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
 }
 
 .top {
@@ -21,7 +20,6 @@ body {
   background-position: bottom center;
   background-size: cover;
   position: relative;
-  
 }
 
 .top h1 {
@@ -48,20 +46,24 @@ body {
 }
 
 .input-button {
-    background-color: #212326;
-    border: 1px solid transparent;
-    height: 3.2em;
-    color: white;
-    font-weight: bold;
-    padding: 1em 0;
-    border-radius: 4px;
-    font-size: 1em;
-    cursor: pointer;
-    width: 25%;
+  background-color: #212326;
+  border: 1px solid transparent;
+  height: 3.2em;
+  color: white;
+  font-weight: bold;
+  padding: 1em 0;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  width: 25%;
 }
 
-.content
+.input-button:hover
 {
+  background-color: black;
+}
+
+.content {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: auto;
@@ -69,14 +71,142 @@ body {
   width: 700px;
 }
 
-.content p
-{
+.content p {
   font-size: 0.75em;
   width: 69%;
   margin: auto;
 }
 
-.top img
-{
+.top img {
   margin-top: 4%;
 }
+
+.quote 
+{
+  text-align: center;
+}
+
+.quote .shopify-quote
+{
+  font-size: 1.5em;
+  color: #212326;
+  font-weight: 400;
+  width: 700px;
+  margin: auto;
+}
+
+.quote .author
+{
+  font-size: 0.875em;
+  color: #42474c;
+  font-weight: 700;
+  margin-top: 2%;
+  margin-bottom: 1.4285714286em;
+  letter-spacing: 0.04375em;
+}
+
+.quote input
+{
+  background-color: #008060;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 1em 1.8125em;
+  font-weight: 700;
+  font-size: 1em;
+  color: white;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  margin-top: 2%;
+  margin-bottom: 7%;
+}
+
+.quote input:hover
+{
+ background-color: darkgreen;
+}
+
+footer 
+{
+  display: flow-root;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+footer a
+{
+  text-decoration: none;
+  cursor: pointer;
+  color: #008060;
+  margin-left: 1em;
+}
+
+footer div
+{
+  text-align: right;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.flex-container
+{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo
+{
+  width: 10.75%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.logo-brands
+{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+  /* For tablets: */
+  .flex-container
+  {
+    flex-wrap: wrap;
+  }
+
+  .logo
+  {
+    width: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .input-email 
+  {
+    width: 70%;
+    margin-right: 0;
+    margin-bottom: 2%;
+  }
+
+  .input-button
+  {
+    width: 70%;
+  }
+
+  
+}
+
+
