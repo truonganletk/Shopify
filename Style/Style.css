@@ -68,7 +68,6 @@ body {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 700px;
 }
 
 .content p {
@@ -91,7 +90,6 @@ body {
   font-size: 1.5em;
   color: #212326;
   font-weight: 400;
-  width: 700px;
   margin: auto;
 }
 
@@ -178,6 +176,48 @@ footer div
   margin-bottom: 100px;
 }
 
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 230px;
+}
+
+.max-width{
+  width: 80%;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.content-margin-bottom{
+  padding-bottom: 20px;
+}
+
+.content-title{
+  font-weight: 700;
+  font-size: 20px;
+}
+.content-text{
+  color: #6b7177;
+  font-weight: 400;
+  font-size: 20px;
+}
+.grid-container{
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.grid-item {
+  float: left;
+  margin-right: 3%;
+  margin-bottom: 20px;
+  width: 30.33%;
+}
+
+
 @media only screen and (max-width: 1000px) {
   /* For tablets: */
   .flex-container
@@ -206,7 +246,7 @@ footer div
     width: 70%;
   }
 
-  
+  .grid-item {
+    width: 100%;
+  }
 }
-
-
